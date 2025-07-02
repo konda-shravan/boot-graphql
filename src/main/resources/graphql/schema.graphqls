@@ -1,0 +1,8 @@
+type ScheduleRoom {
+  id: ID
+  description: String
+}
+
+type Query {
+  availableScheduleRooms(description: String): [ScheduleRoom]
+}
