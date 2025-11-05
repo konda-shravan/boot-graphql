@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GraphqlapiApplication {
 
 	public static void main(String[] args) {
+        System.out.println("GraphQL Demo");
 		SpringApplication.run(GraphqlapiApplication.class, args);
 	}
 
